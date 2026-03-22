@@ -1,46 +1,61 @@
 body{
 	background-color: #E3DCF5;
+	margin: 0;
+	padding: 20px;
 }
 
-h1 {
-	color: SlateBlue;
-	font-family: verdana;
-	text-align:center;
-	font-size: 30px;
-}
-
-h2 {
-	color: SlateBlue;
-	font-family: verdana;
-	text-align:center;
-	font-size: 30px;
-}
-
-h3 {
-	color: SlateBlue;
-	font-family: verdana;
-	text-align:center;
-	font-size: 30px;
+h1, h2, h3 {
+    color: SlateBlue;
+    text-align: center;
+    font-size: 30px;
 }
 
 p {
 	color: black;
-	border: violet;
+	line-height: 2;
+}   
+
+.centrato{
+	text-align: center;
 }
 
 .links{
 	color: SlateBlue;
 	font-family: verdena;
-	font-weight: bold
-}
-
-img{
-	width: 250px;
-	height: 300px;
+	font-weight: bold;
 }
 
 .bandiera{
 	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-bottom: 40px;
+}
+
+.bandiera img {
+	width: 250px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+	margin: 20px auto;
+}
+
+#logo img{
+	width: 300px;
+	height: auto;
+	border-radius: 10px;
+}
+
+#indirizzi ol{
+	text-align: left;
+}
 	width: 300px;
 	height: 200px;
 }
