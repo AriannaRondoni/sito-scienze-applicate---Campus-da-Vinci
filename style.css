@@ -1,0 +1,46 @@
+body{
+	background-color: #E3DCF5;
+}
+
+h1 {
+	color: SlateBlue;
+	font-family: verdana;
+	text-align:center;
+	font-size: 30px;
+}
+
+h2 {
+	color: SlateBlue;
+	font-family: verdana;
+	text-align:center;
+	font-size: 30px;
+}
+
+h3 {
+	color: SlateBlue;
+	font-family: verdana;
+	text-align:center;
+	font-size: 30px;
+}
+
+p {
+	color: black;
+	border: violet;
+}
+
+.links{
+	color: SlateBlue;
+	font-family: verdena;
+	font-weight: bold
+}
+
+img{
+	width: 250px;
+	height: 300px;
+}
+
+.bandiera{
+	display: flex;
+	width: 300px;
+	height: 200px;
+}
